@@ -1,0 +1,21 @@
+button{
+  margin: 20px;
+}
+
+.d3{
+  width: 200px;
+  height: 80px;
+  outline: none;
+  border: none;
+  border-radius: 10px;
+  font-size: 40px;
+  color: white;
+  background: linear-gradient(#20d9f1, #05899a);
+  text-shadow: 0 4px 5px gray;
+  box-shadow: 0 10px 0px #064a52, 0 14px 4px gray;
+  transition: .1s;
+}
+.d3:active{
+  transform: translateY(5px);
+  box-shadow: 0 5px 0px #064a52, 0 9px 4px gray;
+}
