@@ -1,21 +1,156 @@
-button{
-  margin: 20px;
+/* btn的大小 */
+.btn-small{
+  width: 80px;
+  height: 30px;
+}
+.btn-small-1{
+  width: 100px;
+  height: 40px;
+}
+.btn-small-2{
+  width: 120px;
+  height: 50px;
+}
+.btn-middle{
+  width: 150px;
+  height: 50px;
+}
+.btn-middle{
+  width: 180px;
+  height: 60px;
+}
+.btn-middle{
+  width: 200px;
+  height: 70px;
+}
+.btn-large{
+  width: 220px;
+  height: 80px;
+}
+.btn-large-1{
+  width: 250px;
+  height: 90px;
+}
+.btn-large-2{
+  width: 300px;
+  height: 100px;
 }
 
-.d3{
-  width: 200px;
-  height: 80px;
+
+/* btn的圆角度 */
+.btn-round{
+  border-radius: 50%;
+}
+.btn-radius{
+  border-radius: 10px;
+}
+
+
+
+/* btn的颜色 */
+.btn-md-primary{background: #039BE5;}
+.btn-md-primary:hover{background: #028dd3;}
+.btn-md-primary:active{background: #0283c4;}
+
+.btn-md-info{background: #FB8C00;}
+.btn-md-info:hover{background: #e78001;}
+.btn-md-info:active{background: #c26b02;}
+
+.btn-md-success{background: #43A047;}
+.btn-md-success:hover{background: #399b3e;}
+.btn-md-success:active{background: #267c2b;}
+
+.btn-md-error{background: #e53935;}
+.btn-md-error:hover{background: #e4322f;}
+.btn-md-error:active{background: #df2825;}
+
+.btn-md-dark{background: #212121;}
+.btn-md-dark:hover{background: #1a1919;}
+.btn-md-dark:active{background: #111010;}
+
+.btn-md-gray{background: #e6e5e5;}
+.btn-md-gray:hover{background: #d4d2d2;}
+.btn-md-gray:active{background: #bbbaba;}
+
+/* btn */
+.btn{
   outline: none;
   border: none;
-  border-radius: 10px;
-  font-size: 40px;
-  color: white;
-  background: linear-gradient(#20d9f1, #05899a);
-  text-shadow: 0 4px 5px gray;
-  box-shadow: 0 10px 0px #064a52, 0 14px 4px gray;
-  transition: .1s;
+  color: #fff;
 }
-.d3:active{
-  transform: translateY(5px);
-  box-shadow: 0 5px 0px #064a52, 0 9px 4px gray;
+
+/* 3D风格的btn */
+.btn-3d-primary{
+  background: #039BE5;
+  box-shadow: 0 .8em 0 #07628f, 0 1em .2em gray;;
 }
+.btn-3d-primary:hover{
+  background: #11abf8;
+}
+.btn-3d-primary:active{
+  transform: translateY(.4em);
+  box-shadow: 0 .4em 0 #07628f, 0 .5em .2em gray;
+}
+
+.btn-3d-success{
+  background: #43A047;
+  box-shadow: 0 .8em 0 #1e471f, 0 1em .2em gray;;
+}
+.btn-3d-success:hover{
+  background: #54a759;
+}
+.btn-3d-success:active{
+  transform: translateY(.4em);
+  box-shadow: 0 .4em 0 #1e471f, 0 .5em .2em gray;
+}
+
+.btn-3d-error{
+  background: #e53935;
+  box-shadow: 0 .8em 0 #85201f, 0 1em .2em gray;
+}
+.btn-3d-error:hover{
+  background: #f3504d;
+}
+.btn-3d-error:active{
+  transform: translateY(.4em);
+  box-shadow: 0 .4em 0 #85201f, 0 .5em .2em gray;
+}
+
+.btn-3d-info{
+  background: #FB8C00;
+  box-shadow: 0 .8em 0 #b16305, 0 1em .2em gray;
+}
+.btn-3d-info:hover{
+  background: #f59117;
+}
+.btn-3d-info:active{
+  transform: translateY(.4em);
+  box-shadow: 0 .4em 0 #b16305, 0 .5em .2em gray;
+}
+
+.btn-3d-dark{
+  background: #212121;
+  box-shadow: 0 .8em 0 #111111, 0 1em .2em gray;
+}
+.btn-3d-dark:hover{
+  background: #363636;
+}
+.btn-3d-dark:active{
+  transform: translateY(.4em);
+  box-shadow: 0 .4em 0 #111111, 0 .5em .2em gray;
+}
+
+.btn-3d-gray{
+  background: #e6e5e5;
+  box-shadow: 0 .8em 0 #adacac, 0 1em .2em gray;
+}
+.btn-3d-gray:hover{
+  background: #f1efef;
+}
+.btn-3d-gray:active{
+  transform: translateY(.4em);
+  box-shadow: 0 .4em 0 #adacac, 0 .5em .2em gray;
+}
+
+
+/* 光晕效果 */

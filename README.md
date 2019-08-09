@@ -1,2 +1,2 @@
 # MDbutton
-Material Design Button
+Buttons
